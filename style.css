@@ -7,9 +7,10 @@
 body{
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #e3f2fd;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 90vh;
+    background: #0cad2f;
 }
 .wrapper{
         width: 65vmin;
@@ -40,4 +41,25 @@ body{
 }
 .tabla-juego .cabeza{
     background: rgb(24, 151, 24);
+}
+nav ul{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: rgb(63, 63, 143);
+    font-weight: 1000;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    padding: 20px;
+    width: 150px;
+    text-decoration: none;
+    color: whitesmoke ;
+}
+nav ul a:hover{
+    background-color: wheat;
+    color: blue;
 }
